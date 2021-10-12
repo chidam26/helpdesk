@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="init()">
+    <h1>TIRUCHIRAPPALLI CITY MUNICIPAL CORPORATION</h1>
+    <h4 id='slogan'>A LOCAL GOVERNMENT AT YOUR SERVICE</h4>
+    <table>
+        <tr>
+            <th colspan="2" id="login">LOGIN</th>
+        </tr>
+        <tr>
+            <td id="username">USERNAME :</td>
+            <td><input type="text" placeholder="Enter your username" id="usrLogin"></td>
+        </tr>
+        <tr>
+            <td id="password">PASSWORD :</td>
+            <td><input type="password" placeholder="Enter your password" id = "pwdLogin"></td>
+        </tr>
+        <tr>
+            <th colspan="2"><button onclick="login()">ENTER</button></th>
+            
+        </tr>
+        <tr>
+            <td style="color: rgb(26, 0, 0); font-weight: bolder; font-size: xx-large;">New users <a href="register.html" style="color: #FBF32F;">Register Here</a></td>
+            <th colspan="2" id='loginerr' style="color: rgb(26, 0, 0); font-weight: bolder; font-size: larger;"></th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

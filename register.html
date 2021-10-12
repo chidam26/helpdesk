@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body onload="init()">
+    <h1>TIRUCHIRAPPALLI CITY MUNICIPAL CORPORATION</h1>
+    <h4 id='slogan'>A LOCAL GOVERNMENT AT YOUR SERVICE</h4>
+    
+    <table>
+        <tr>
+            <th colspan="2" id="newregister">NEW USER REGISTRATION</th>
+        </tr>
+        <tr>
+            <td class="details">Name as per aadhar</td>
+            <td><input type="text" placeholder="Enter your name here" class="box" id="name"></td>
+        <tr>
+                <td></td>
+                <td id='alert1' style="color: rgb(247, 11, 11); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        </tr>
+        <tr>
+            <td class="details">Aadhar No.</td>
+            <td><input type="text" placeholder="Enter your aadhar number here" class="box" id = "aadhar"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert2' style="color: rgb(247, 11, 11); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">Address</td>
+            <td><input type="text" placeholder="Enter your address here" class="box" id='address'></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert3' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">Mobile No.</td>
+            <td><input type="text" placeholder="Enter your mobile number here"  class="box" id = "mobile"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert4' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">E-mail ID</td>
+            <td><input type="text" placeholder="Enter your e-mail here" class="box" id = "email"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert5' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">User name preferred</td>
+            <td><input type="text" placeholder="Enter a valid username here" class="box" id = "username"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert6' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">Password</td>
+            <td><input type="text" placeholder="Enter your desired password" class="box" id = "passtxt"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert7' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <td class="details">Confirm password</td>
+            <td><input type="text" placeholder="" class="box" id ="cpasstxt"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert8' style="color: rgb(252, 252, 252); font-weight: bolder ; font-size: larger;"></td>
+        </tr>
+        <tr>
+            <th colspan="2"><button onclick="register()">REGISTER</button></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td id='alert9' style="color: rgb(8, 245, 8); font-weight: 40px ; font-size: larger;"></td>
+        </tr>
+        
+    </table>
+
+    <script src="script.js"></script>
+    <label>Disclaimer: This is not the official website of the Trichy Corporation. It's part of a project</label>
+
+</body>
+</html>

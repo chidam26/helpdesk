@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Slabo+13px&family=Source+Serif+Pro&display=swap');
+
+
+body {
+    background-image: url(The_tank_and_Rockfort_Trichinopoly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    h1 {
+        font-family: Source Serif Pro;
+        
+        font-size: 50px;
+        padding-left: 44px;
+        letter-spacing: 3px;
+    }
+    
+    #slogan {
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 44px;
+        letter-spacing: 3px;
+    }
+    
+   
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        
+    }
+
+    #newregister {
+        font-size: 30px;
+        color: black;
+        
+    }
+    
+    .details {
+        font-size: 26px;
+        color: black;
+        padding-left: 12px;
+        font-weight: bolder;
+    }
+    
+    #textarea {
+        background-color: #FFFFFF;
+        height: 100px;
+        width: 220px;
+        border-radius: 10px;
+        
+    }
+
+    td, th {
+        height: 40px;
+        
+        
+    }
+    
+    td {
+        width: 250px;
+    }
+    
+    
+    
+    .box{
+        height: 20px;
+        width: 220px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        
+    }
+
+    button {
+        font-family: Ribeye Marrow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+        color: #200101;
+        background-color: #FBF32F;
+        border-radius: 20px;
+        cursor: pointer;
+        
+        }

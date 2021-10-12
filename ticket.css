@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Slabo+13px&family=Source+Serif+Pro&display=swap');
+
+body {
+    background-image: url(The_tank_and_Rockfort_Trichinopoly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+
+h1 {
+    font-family: Source Serif Pro;
+   
+    font-size: 50px;
+    padding-left: 44px;
+    letter-spacing: 3px;
+}
+
+#slogan {
+    font-family: 'Montserrat', sans-serif;
+    
+    padding-left: 44px;
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+th {
+    width: 120px;
+    font-size: larger;
+}
+
+h2 {
+    padding-left: 200px;
+}
+
+.container div:first-child {
+    font-size: larger;
+    font-weight: bold;
+}
+
+select {
+    width: 250px;
+    background-color: #ffff;
+}
+
+textarea {
+    width: 400px;
+    height: 250px;
+    overflow: scroll;
+    background-color: #ffff;
+}
+
+#addticket {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+button {
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 44px;
+color: #200101;
+background-color: #FBF32F;
+border-radius: 20px;
+cursor: pointer;
+}
+
+#logout {
+   margin-left: 44px;
+}
+
+option {
+    background-color: #ffff;
+}

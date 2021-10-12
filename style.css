@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ribeye+Marrow&family=Slabo+13px&family=Source+Serif+Pro&display=swap');
+
+body {
+background-image: url(The_tank_and_Rockfort_Trichinopoly.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+    font-family: Source Serif Pro;
+    font-size: 50px;
+    padding-left: 44px;
+    letter-spacing: 3px;
+}
+
+#slogan {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 44px;
+    letter-spacing: 3px;
+}
+
+
+.container {
+    display: flex;
+    padding-left: 20vh;
+    padding-top: 80px;
+}
+
+.buttons {
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+button {
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+color: #200101;
+background-color: #FBF32F;
+border-radius: 20px;
+cursor: pointer;
+}
+
+
+
+#helpdesk {
+font-family: 'Rock Salt', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+transform: rotate(-15.28deg);
+}
+
+#tag {
+padding-top: 20px;
+padding-left: 20px;
+font-family: Slabo 13px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+}
+
+/*LOGIN PAGE CSS*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+#login {
+    font-size: 40px;
+    
+    letter-spacing: 3px;
+}
+
+#username {
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+#password {
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+td, th {
+    height: 80px;
+    
+}
+
+td {
+    width: 240px;
+}
+
+#usrLogin {
+    height: 30px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+#pwdLogin {
+    height: 30px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.label {
+    padding-left: 20px;
+    padding-top: 140px;
+}
